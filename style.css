@@ -66,7 +66,7 @@ p {
 
 @media (max-width:1300px) {
     .Main-Title {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         color: white;
         letter-spacing: 0.1rem;
     }
@@ -74,13 +74,13 @@ p {
         margin-top: 20vw;
     }
     .Ear-image{
-        width: 23rem;
+        width: 16rem;
     }
 }
 
 @media (max-width:1300px) {
     .Paragraph {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: white;
     }
     
