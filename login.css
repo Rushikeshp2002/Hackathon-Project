@@ -59,6 +59,12 @@ form i{
     color: white;
 }
 
+.login:hover{
+    background-color: white;
+    color: #E23190;
+    border: 1px solid #E23190;
+}
+
 p .username{
     display: block;
 }
