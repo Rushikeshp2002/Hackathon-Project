@@ -42,11 +42,17 @@ img{
     
 }
 
+.login:hover{
+    background-color: white;
+    color: #E23190;
+
+}
+
 .register{
     width: 16vw;
     height: 6vh;
     border-radius: 1.5rem;
-    background-color: #E23190;
+    background-color: #822ADA;
     color: white;
     border: none;
     font-family: 'Josefin Sans', sans-serif;
@@ -54,6 +60,12 @@ img{
     text-align: center;
     padding-top: 0.4rem;
     
+}
+
+.register:hover{
+   background-color: white;
+   color: #822ADA;
+   
 }
 
 .OR{
@@ -108,7 +120,6 @@ img{
     width: 12.5vw;
     height: 6vh;
     background-image: url('png6.png');
-    
     background-size: cover;
 }
 
@@ -163,6 +174,20 @@ img{
         width: 55vw;
     }
     
+}
+
+@media (min-height:760px){
+    .google{
+        width: 60vw;
+    }
+
+    .facebook{
+        width: 50vw;
+    }
+
+    .twitter{
+        width: 50vw;
+    }
 }
 
 
