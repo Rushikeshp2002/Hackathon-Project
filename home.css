@@ -247,7 +247,7 @@ li{
     }
 
     .bar{
-        margin: 6vw 2vw;
+        margin: 10vw 2vw;
     }
 
     
@@ -268,7 +268,7 @@ li{
     .bar{
         width: 90vw;
         margin: auto;
-        margin-top:1rem;
+        margin-top:4rem;
     }
 
     .li{
@@ -283,9 +283,9 @@ li{
     }   
 }
 
-@media (min-height:720px) {
+@media (max-height:720px) {
     .bar{
-        margin-top: 12vw;
+        margin-top: 6vw;
     }
     
 }
