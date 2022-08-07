@@ -280,8 +280,12 @@ li{
 
     .navbar{
         font-size: 2.5vw;
+    }   
+}
+
+@media (min-height:720px) {
+    .bar{
+        margin-top: 12vw;
     }
-
-
     
 }
