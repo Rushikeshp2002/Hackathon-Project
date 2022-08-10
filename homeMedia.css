@@ -100,7 +100,7 @@
         width: 95vw;
         margin: auto;
         margin-left: 0.5rem;
-        margin-top:3rem;
+        margin-top:3.7rem;
         background-color: #fff;
         background: rgba(235, 179, 255, 0.66);
 
@@ -124,7 +124,7 @@
 
 @media (max-height:720px) {
     .bar{
-        margin-top: 3.50rem;
+        margin-top: 3.20rem;
     }
     .header{
         height: 15vh;
