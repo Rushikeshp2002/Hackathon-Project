@@ -3,7 +3,8 @@
         overflow-y: scroll;
     }
     .header{
-        height: 12vh;
+        height: 15vh;
+        align-items: center;
     }
     .msg{
         font-size: 8vw;
@@ -125,5 +126,10 @@
     .bar{
         margin-top: 3.20rem;
     }
+    .header{
+        height: 13vh;
+        align-items: center;
+    }
+
     
 }
