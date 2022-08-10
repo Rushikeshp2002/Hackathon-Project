@@ -1,6 +1,9 @@
 @media (max-width:1000px){
+    .body{
+        overflow-y: scroll;
+    }
     .header{
-        height: 15vh;
+        height: 12vh;
     }
     .msg{
         font-size: 8vw;
@@ -12,6 +15,7 @@
     .img{
         width: 4rem;
         height: 4rem;
+        margin-top: auto;
     }
 
     .title{
@@ -23,6 +27,7 @@
     }
     .main{
         /* margin: 1vw 8vw; */
+        margin-top: 1vw;
         display: flex;
         flex-direction: column;
         z-index: 1;
@@ -55,7 +60,7 @@
     .gov-section{
         padding: 5vw 3vw;
         width: 90vw;
-        margin-top: 1.7rem;
+        margin-top: 1rem;
         margin-left: 1rem;
     }
     .click{
@@ -71,8 +76,12 @@
 
     
     .cards{
+        display: inline-flex;
+        width: 4vw;
+        height: 4vw;
         margin-top: 1rem;
-        padding: 20vw;   
+        padding: 13vw;   
+        border-radius: 1.5rem;
         margin: 0 10px;
         z-index: 0;
     }
