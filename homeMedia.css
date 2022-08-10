@@ -124,12 +124,21 @@
 
 @media (max-height:720px) {
     .bar{
-        margin-top: 3.20rem;
+        margin-top: 3.50rem;
     }
     .header{
         height: 15vh;
         align-items: center;
     }
 
+    .title{
+        margin-top: 1rem;
+    }
+    .main{
+        margin-top: 1.5rem;
+    }
+    .gov-section{
+        margin-top: 1.5rem;
+    }
     
 }
