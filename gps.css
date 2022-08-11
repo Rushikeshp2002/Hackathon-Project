@@ -209,7 +209,7 @@ li{
 
     }
     .head{
-        height:25vh;
+        height:27vh;
         background-image: url('gps2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -294,6 +294,14 @@ li{
     }
 
     
+}
+
+
+@media (max-height:720px) {
+    .bar{
+        /* margin-top: 2px; */
+    }
+
 }
 
 
