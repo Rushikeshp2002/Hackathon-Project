@@ -19,12 +19,11 @@ header{
     justify-content: space-evenly;
     /* margin-top: 1vw; */
     /* margin-left: -10rem; */
-    backdrop-filter: blur(18px) saturate(200%);
-    -webkit-backdrop-filter: blur(18px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.50);
-    /* border-radius: 12px; */
+    backdrop-filter: blur(19px) saturate(200%);
+    -webkit-backdrop-filter: blur(19px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-
 
     
 }
@@ -90,9 +89,9 @@ span{
     width: 98vw;
     text-align: center;
     /* margin-bottom: 5vw; */
-    backdrop-filter: blur(18px) saturate(200%);
-    -webkit-backdrop-filter: blur(18px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(19px) saturate(200%);
+    -webkit-backdrop-filter: blur(19px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -101,9 +100,9 @@ span{
     width: 40vw;
     padding: 1rem;
     margin-left: 10rem;
-    backdrop-filter: blur(18px) saturate(200%);
-    -webkit-backdrop-filter: blur(18px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(19px) saturate(200%);
+    -webkit-backdrop-filter: blur(19px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 
@@ -196,9 +195,9 @@ h1{
     padding: 2rem;
     margin-left: 10rem;
     /* margin-top: 1rem; */
-    backdrop-filter: blur(18px) saturate(200%);
-    -webkit-backdrop-filter: blur(18px) saturate(200%);
-    background-color: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(19px) saturate(200%);
+    -webkit-backdrop-filter: blur(19px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.55);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
