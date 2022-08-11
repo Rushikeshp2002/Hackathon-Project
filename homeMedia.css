@@ -96,6 +96,7 @@
     }
 
     .bar{
+        position: relative;
         display: flex;
         width: 95vw;
         margin: auto;
