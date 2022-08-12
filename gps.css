@@ -10,7 +10,7 @@
 
 .head{
     width: 100vw;
-    height: 30vh;
+    height: 100vh;
     background-image: url('gps1.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     width: 3vw;
     position: absolute;
     left: 49%;
-    top: 23%;
+    top: 3%;
     border-radius: 0.5rem;
     height: 1vh;
 }
@@ -35,8 +35,13 @@
     height: 100vh;
     /* background-color: #1400FC; */
     background-color: white;
+    backdrop-filter: blur(19px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.93);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.200);
     border-radius: 3rem 3rem 0 0 ;
-    margin-top: -5rem;
+    margin-top: -40rem;
     padding-top: 8rem;
 
     /* background-color: blue; */
@@ -172,6 +177,8 @@ nav ul{
     font-family: 'Georama', sans-serif;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
+    height:10vh;
     font-size: 0.9vw;
     
 }
@@ -206,10 +213,12 @@ li{
         width: 100vw;
         height: 100vh;
         padding-top: 4rem;
+        margin-top: -3rem;
 
     }
     .head{
-        height:27vh;
+        /* height: 0vh; */
+        height:26vh;
         background-image: url('gps2.jpg');
         background-repeat: no-repeat;
         background-size: cover;

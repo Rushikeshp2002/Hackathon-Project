@@ -14,8 +14,8 @@
 
 .head{
     width: 100vw;
-    height: 30vh;
-    background-image: url('hear.webp');
+    height: 100vh;
+    background-image: url('device.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -24,12 +24,12 @@
 
 .container::before{
     content: '.';
-    background-color: #D9D9D9;
+    background-color: rgb(91, 91, 91);
     display: inline-flex;
     width: 3vw;
     position: absolute;
     left: 49%;
-    top: 23%;
+    top: 3%;
     border-radius: 0.5rem;
     height: 1vh;
 }
@@ -41,8 +41,13 @@
     /* background-color: #1400FC; */
     background-color: #F4F1FF;
     border-radius: 3rem 3rem 0 0 ;
-    margin-top: -5rem;
+    margin-top: -40rem;
     padding-top: 8rem;
+    backdrop-filter: blur(1px) saturate(200%);
+    -webkit-backdrop-filter: blur(1px) saturate(200%);
+    background-color: rgba(244, 241, 255, 0.95);
+    /* border-radius: 12px; */
+    border: 1px solid rgba(255, 255, 255, 0.200);
 
     /* background-color: blue; */
 }
@@ -119,7 +124,7 @@ li{
 .one{
     border-radius: 1rem;
     margin-top: 2rem;
-    width: 25vw;
+    width: 30vw;
     height: 18vh;
     display: flex;
     color: rgba(0, 0, 0, 0.10);
@@ -128,12 +133,13 @@ li{
     text-align: center;
     background-color: #A46CFF;
     font-family: 'Secular One', sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
+    text-transform: uppercase;
 }
 
 
 .utilities{
-    margin-top: 5vw;
+    margin-top: 2vw;
     display: flex;
     /* margin: auto; */
     font-family: 'Secular One', sans-serif;
@@ -142,7 +148,7 @@ li{
 }
 
 .two{
-    width: 12vw;
+    width: 20vw;
     height: 15vh;
     background-color: #81FFB3;
     display:flex;
@@ -169,7 +175,7 @@ li{
 
 
 .three{
-    width: 12vw;
+    width: 20vw;
     height: 15vh;
     border-radius: 1rem;
     background-color: #EFFF37;
