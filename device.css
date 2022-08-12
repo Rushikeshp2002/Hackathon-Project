@@ -226,21 +226,23 @@ li{
         text-transform: uppercase;
     }
     .two{
-        width: 35vw;
-        font-size: 5vw;
+        width: 45vw;
+        height: 17vh;
+        font-size: 6vw;
     }
     .three{
-        width: 35vw;
-        font-size: 5vw;
+        width: 45vw;
+        height: 17vh;
+        font-size: 6vw;
     }
     .img1{
-        width: 40vw;
+        width: 45vw;
         height: 10vh;
         opacity: 0.1;
     }
 
     .img2{
-        width: 30vw;
+        width: 40vw;
         height: 13vh;
         opacity: 0.1;
     }
@@ -255,6 +257,16 @@ li{
     .navbar{
         font-size: 3vw;
         margin: auto;
+        font-weight: 900;
+    }
+
+    .li{
+        display: inline-flex;
+        align-items: center;
+        flex-direction: column;
+        width: 5.1vw;
+        justify-content: space-evenly;
+        /* margin: 0.4rem 1.5rem; */
     }
     
 
