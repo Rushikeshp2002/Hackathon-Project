@@ -238,13 +238,15 @@ li{
     .img1{
         width: 45vw;
         height: 12vh;
+        background-size: contain;
         opacity: 0.1;
     }
 
     .img2{
-        width: 28vw;
-        height: 15vh;
+        width: 40vw;
+        height: 17vh;
         opacity: 0.1;
+        background-size: contain;
     }
 
     .bar{
