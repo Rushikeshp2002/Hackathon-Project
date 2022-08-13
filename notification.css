@@ -197,6 +197,7 @@ li{
 
     .Rectangle1,.Rectangle2{
         width: 90vw;
+        margin-top: 1rem;
     }
 
     .bar{
