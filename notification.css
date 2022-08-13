@@ -96,7 +96,7 @@ body {
 .paragraph{
     display: inline-flex;
     margin: auto;
-    margin-top: -20rem;
+    margin-top: -15rem;
     flex-direction: column;
 }
 
@@ -113,7 +113,7 @@ nav{
     height: 10vh;
     /* background-color: #fff; */
     margin: auto;
-    margin-top: -9rem;
+    margin-top: -12rem;
     /* margin-top: 6vw; */
     background: rgba(235, 179, 255, 0.66);
     border-radius: 1rem;
