@@ -201,10 +201,11 @@ li{
         width: 100vw;
         height: 100vh;
         padding-top: 4rem;
+        margin-top: -3rem;
 
     }
     .head{
-        height:30vh;
+        height:26vh;
         background-image: url('deafness-1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -230,6 +231,7 @@ li{
         font-size: 15vw;
         color: rgba(0, 0, 0, 0.30);
         text-transform: uppercase;
+        margin-bottom: 1rem;
     }
     .two{
         width: 45vw;

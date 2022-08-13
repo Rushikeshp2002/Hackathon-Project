@@ -127,14 +127,47 @@ body {
     content: '.';
     background-color: black;
     display: inline-flex;
-    width: 3vw;
+    width: 3rem;
     position: absolute;
-    left: 48.6%;
-    top: 29%;
+    left: 48%;
+    /* top: 29%; */
     border-radius: 0.5rem;
     height: 1vh;
 }
 
 .paragraph {
     margin-top: 3rem;
+}
+
+@media (max-width:1200px){
+    .head{
+        height: 25vh;
+        background-image: url('Inbox.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .container{
+        width: 100vw;
+        margin-top: -2rem;
+    }
+
+    .container::before{
+        display: flex;
+        margin: auto;
+        width: 10vw;
+        margin-top: -12rem;
+        margin-left: -0.6rem;
+    }
+    .back{
+        font-size: 5vw;
+        margin-left: 1rem;
+    }
+    .title{
+        margin-top: -2rem;
+    }
+
+    .Rectangle1,.Rectangle2,.Rectangle3{
+        width: 90vw;
+    }
 }
