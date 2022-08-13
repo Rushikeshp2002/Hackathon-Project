@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -206,7 +211,12 @@ h1{
     text-align: center;
     margin-top: 1rem;
     font-family: 'Raleway', sans-serif;
-    font-size: x-large;   
+    font-size: x-large;
+    background-color: #27FF7E;   
+    
+}
+
+.click:hover{
     background: linear-gradient(45deg,#3FFF00, #90EE90);
     animation: hue-rotate 1s linear infinite alternate;
 }
