@@ -203,7 +203,8 @@ li{
     .bar{
         display: flex;
         width: 95vw;
-        margin-top: -8em;
+        /* margin-top: -8em; */
+        align-items: center;
     }
 
     .navbar{
