@@ -211,7 +211,7 @@ li{
 @media (max-width:900px) {
     .container{
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
         padding-top: 4rem;
         margin-top: -3rem;
 
