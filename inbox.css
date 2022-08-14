@@ -80,6 +80,7 @@ body {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: black;
+    width: 3rem;
 }
 
 .Rectangle3 {
@@ -162,6 +163,7 @@ body {
     .back{
         font-size: 5vw;
         margin-left: 1rem;
+        z-index: 1000;
     }
     .title{
         margin-top: -2rem;
