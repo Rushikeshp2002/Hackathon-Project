@@ -280,9 +280,9 @@ li{
     }
     .bar{
         display:flex;
-        /* margin: auto; */
+        align-items: center;
         /* position:absolute; */
-        margin-top: -5rem;
+        
         /* margin-left: 1rem; */
         width: 95vw;
         
