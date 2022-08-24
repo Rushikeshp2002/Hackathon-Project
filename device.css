@@ -195,6 +195,10 @@ li{
     opacity: 0.1;
 }
 
+.getd{
+    color: black;
+}
+
 
 @media (max-width:900px) {
     .container{

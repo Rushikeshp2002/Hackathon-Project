@@ -39,7 +39,7 @@ header{
     color: rgb(255, 255, 255);
     display: inline-flex;
     flex-direction: column;
-    margin-left: -30rem;
+    margin-left: -22rem;
     
 }
 
@@ -54,7 +54,7 @@ span{
     right: 1rem;
     width: 4rem;
     height: 4rem;
-    margin-top: 0.5rem;
+    margin-top: -2.5rem;
     background-image: url('profile.jpeg');
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ nav{
     align-items: center;
     position: absolute;
     top: 1rem;
-    margin-left: -2rem;
+    margin-left: 10rem;
     
     
 
