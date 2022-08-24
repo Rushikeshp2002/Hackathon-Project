@@ -58,4 +58,4 @@ baba = window.location.search;
 console.log(baba)
 
 const urlParam = new URLSearchParams(baba);
-console.log(urlParam.has('login.html'))
+console.log(urlParam.has('github'))
