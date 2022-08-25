@@ -95,6 +95,14 @@ p .username{
     font-size: small;
 }
 
+.invalid{
+    display: none;
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
 
 @media (max-width:1300px){
     .image{

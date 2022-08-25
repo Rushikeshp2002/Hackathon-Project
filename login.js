@@ -53,9 +53,22 @@ emailEl.addEventListener('input',()=>{
     
 // })
 
-let baba = "";
-baba = window.location.search;
-console.log(baba)
 
-const urlParam = new URLSearchParams(baba);
-console.log(urlParam.has('github'))
+// let baba = "";
+// baba = window.location.search;
+// console.log(baba)
+
+// let urlParam = " ";
+// urlParam = new URLSearchParams(baba);
+
+
+let url = new URL('https://example.com?foo=1&bar=2');
+let params = new URLSearchParams(url.search);
+if(params.has('goo')){
+    document.getElementById("invalid").style.display = "block";
+
+}
+else{
+    console.log("blah blah")
+}
+
